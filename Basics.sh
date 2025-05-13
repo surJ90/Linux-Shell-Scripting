@@ -45,3 +45,10 @@ upper_name=${full_name^^}
 lower_name=${full_name,,}
 echo $upper_name
 echo $lower_name
+
+# boolean operations
+is_active="true"
+if [ "$is_active" = "true" ];
+then
+    echo "System is active"
+fi 
