@@ -24,3 +24,7 @@ echo "${file#doc}"  # removes prefix
 
 # set to default use = instead of -
 echo "${name:=Default}"
+
+# handling errors
+unset critical_val
+echo ${critical_val?Error: variable unset}

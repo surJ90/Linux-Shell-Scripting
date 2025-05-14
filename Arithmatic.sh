@@ -21,3 +21,8 @@ height=1.75
 weight=70
 bmi=$(echo "$weight / ($height * $height)" | bc -l)
 printf "BMI: %.2f\n" "$bmi"
+
+a=10
+b=20
+sol=$((a*b))
+echo $sol
