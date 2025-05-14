@@ -20,4 +20,4 @@ echo "welcome $name!"
 
 read -p "Expression: " exp
 result=$(echo "scale=10; $exp" | bc -l)
-printf "%.3f" "$result"
+printf "%.3f\n" "$result"
